@@ -1,5 +1,5 @@
 # Machine Learning Assignment -2 Submitted by Sougata Das BITS ID- 2024DC04257
-# Topic: Rainfall Prediction across Australlia
+# Topic: Rainfall Prediction across regions in Australlia
  
 # Problem Statement
  
@@ -59,14 +59,14 @@ Categorical variables were label encoded.
  
 # Model Comparison Table
  
-| ML Model Name                                | Accuracy | AUC | Precision   | Recall  | F1       | MCC |
-|----------------------------------------------|----------|-----|-------------|---------|----------|-----|
-  rainfall_logistic_regression_classification   0.844580   0.865472   0.727273  0.490667  0.585987   0.509246
-        rainfall_decision_tree_classification   0.782095   0.693237   0.513473  0.532078  0.522610   0.381598
-   rainfall_k-nearest_neighbor_classification   0.835965   0.823849   0.687995  0.490824  0.572920   0.485271
-          rainfall_naive_bayes_classification   0.804740   0.827552   0.559376  0.607373  0.582387   0.455907
-        rainfall_random_forest_classification   0.856816   0.886617   0.772544  0.512000  0.615849   0.549280
-                                      xgboost   0.860368   0.892677   0.758495  0.553255  0.639819   0.566475
+| ML Model Name                                | Accuracy | AUC     | Precision   | Recall  | F1       | MCC |
+|----------------------------------------------|----------|---------|-------------|---------|----------|-----|
+|   rainfall_logistic_regression_classification| 0.844580 | 0.865472 |  0.727273 | 0.490667|  0.585987 |  0.509246
+|        rainfall_decision_tree_classification | 0.782095 | 0.693237  | 0.513473 | 0.532078 | 0.522610 |  0.381598
+|   rainfall_k-nearest_neighbor_classification | 0.835965  | 0.823849  | 0.687995 | 0.490824 | 0.572920  | 0.485271
+|          rainfall_naive_bayes_classification | 0.804740 |  0.827552 |  0.559376 | 0.607373 | 0.582387 |  0.455907
+|        rainfall_random_forest_classification | 0.856816 | 0.886617 |  0.772544 | 0.512000 | 0.615849  | 0.549280
+|                rainfall_xgboost_classfication  | 0.860368 |  0.892677  | 0.758495 | 0.553255 | 0.639819  | 0.566475
  
  
 ## Observations
