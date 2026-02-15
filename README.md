@@ -68,13 +68,14 @@ Categorical variables were label encoded.
 |        rainfall_random_forest_classification | 0.856816 | 0.886617 |  0.772544 | 0.512000 | 0.615849  | 0.549280
 |                rainfall_xgboost_classfication  | 0.860368 |  0.892677  | 0.758495 | 0.553255 | 0.639819  | 0.566475
 
-|Model|Accuracy|AUC|Precision|Recall|F1|MCC|
-|rainfall_logistic_regression_classification|0.84341|0.861763|0.72516|0.48549|0.581602|0.50481
-|rainfall_decision_tree_classification|0.78381|0.69808|0.516968|0.542431|0.529393|0.38936
-|rainfall_k-nearest_neighbor_classification|0.836562|0.82242|0.69116|0.48972|0.57326|0.48660
-|rainfall_naive_bayes_classification|0.80210|0.82262|0.55359|0.60517|0.57823|0.450054
-|rainfall_random_forest_classification|0.84869|0.87098|0.78729|0.44533|0.56888|0.51456
-|xgboost|0.85829|0.89111|0.75112|0.55011|0.63509|0.56002
+|Model                                         |Accuracy  |AUC      |Precision    |Recall   |F1        |MCC  |
+|----------------------------------------------|----------|---------|-------------|---------|----------|-----|
+|rainfall_logistic_regression_classification   |0.84341   |0.861763 |0.72516      |0.48549  |0.581602  |0.50481
+|rainfall_decision_tree_classification         |0.78381   |0.69808  |0.516968     |0.542431|0.529393|0.38936
+|rainfall_k-nearest_neighbor_classification    |0.836562  |0.82242  |0.69116      |0.48972|0.57326|0.48660
+|rainfall_naive_bayes_classification           |0.80210   |0.82262  |0.55359      |0.60517|0.57823|0.450054
+|rainfall_random_forest_classification         |0.84869   |0.87098  |0.78729      |0.44533|0.56888|0.51456
+|xgboost                                       |0.85829   |0.89111  |0.75112      |0.55011|0.63509|0.56002
 
 
 
