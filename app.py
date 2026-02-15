@@ -14,8 +14,8 @@ def load_pickle(file_path):
         return pickle.load(f)
 
 # Load feature names and scaler
-feature_names = load_pickle(f"{MODEL_FOLDER}/feature_names.pkl")
-scaler = load_pickle(f"{MODEL_FOLDER}/scaler.pkl")
+feature_names = load_pickle(f"models/feature_names.pkl")
+scaler = load_pickle(f"models/scaler.pkl")
 
 # Load trained models
 model_files = {
@@ -27,7 +27,7 @@ model_files = {
     "XGBoost": "xgboost.pkl"
 }
 
-models = {name: load_pickle(f"{MODEL_FOLDER}/{file}") for name, file in model_files.items()}
+models = {name: load_pickle(f"models/{file}") for name, file in model_files.items()}
 
 st.sidebar.header("Input Features (Minimal)")
 
