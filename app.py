@@ -5,13 +5,6 @@ from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(page_title="Rainfall Prediction App -  (Australia)", layout="wide")
 st.title("Rainfall Prediction App (Australia)")
-st.write("Machine Learning Assignment 2 -  Submittimport streamlit as st
-import pandas as pd
-import pickle
-from sklearn.preprocessing import StandardScaler
-
-st.set_page_config(page_title="Rainfall Prediction App -  (Australia)", layout="wide")
-st.title("Rainfall Prediction App (Australia)")
 st.write("Machine Learning Assignment 2 -  Submitted by: Sougata Das BITSID:2024DC04257")
 
 MODEL_FOLDER = "models"
