@@ -24,9 +24,7 @@ else:
     st.error(f"Models folder '{MODEL_FOLDER}' not found")
     st.stop()
  
-# ------------------------------
-# Load feature names and scaler
-# ------------------------------
+
 feature_names = load_pickle(f"{MODEL_FOLDER}/feature_names.pkl")
 scaler = load_pickle(f"{MODEL_FOLDER}/scaler.pkl")
 
