@@ -14,16 +14,7 @@ def load_pickle(file_path):
         st.error(f"File not found: {file_path}")
         st.stop()
     with open(file_path, "rb") as f:
-        return pickle. Load(f)
-        
-st.write("Current working directory:", os.getcwd())
-st.write("Root files:", os.listdir())
-if os.path.exists(MODEL_FOLDER):
-    st.write("Files in models folder:", os.listdir(MODEL_FOLDER))
-else:
-    st.error(f"Models folder '{MODEL_FOLDER}' not found")
-    st.stop()
- 
+        return pickle.load(f) 
 
 feature_names = load_pickle(f"{MODEL_FOLDER}/feature_names.pkl")
 scaler = load_pickle(f"{MODEL_FOLDER}/scaler.pkl")
